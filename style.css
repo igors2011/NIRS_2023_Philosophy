@@ -1,0 +1,323 @@
+/*шапка*/
+.header {
+    font-family: "MoriceBejar";
+    font-size: 96px; 
+    font-weight: 400px;
+    color:#8B836E;
+    text-decoration: none;
+}
+
+.header-wrapper{
+    width: 100%;
+    height: 96px;
+    background-color: #EDEAC6;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+}
+
+.nav-wrapper{
+    font-family: "Inter";
+    font-size: 24px;
+    color: #8B836E;
+    text-align: center;
+    width: 100%;
+    height: 38px;
+    left: 0px;
+    top: 96px;
+    background-color: #DAD0B9;
+    display: inline-block;
+    position: fixed;
+}
+
+.nav-wrapper a{
+    color: #8B836E;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-wrapper a:hover{
+    text-decoration: underline;
+}
+
+.nav{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+/*для всех*/
+h1{
+    font-family: "Inter";
+    font-size: 36px;
+    color: #8B836E;
+    top: 10px;
+    text-align: center;
+}
+
+h1 a{
+    color: #8B836E;
+    text-decoration: none;
+}
+
+/*главная*/
+.shema{
+    text-align: center;
+}
+
+.definition{
+    display: flex;
+}
+
+
+.shema{
+    z-index: 9;
+}
+.links-shema{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+    column-gap: -200px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 50px;
+}
+
+.last{
+    display: absolute;
+    text-align: center;
+}
+
+.links-shema a{
+    color: #8B836E;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+/*!!!*/
+.link span{
+    position: relative;
+    top: 0;
+    left: -30px;
+    opacity: 0;
+    direction: .5s;
+}
+
+.link:hover span{
+    opacity: 1;
+    top: +5px;
+}
+
+.link span1{
+    position: relative;
+    top: 0;
+    left: -30px;
+    opacity: 0;
+    direction: .5s;
+}
+
+.link:hover span1{
+    opacity: 1;
+    top: +5px;
+}
+
+.link span2{
+    position: relative;
+    top: 0;
+    left: -30px;
+    opacity: 0;
+    direction: .5s;
+}
+
+.link:hover span2{
+    opacity: 1;
+    top: +5px;
+}
+
+.link span3{
+    position: relative;
+    top: 0;
+    left: -30px;
+    opacity: 0;
+    direction: .5s;
+}
+
+.link:hover span3{
+    opacity: 1;
+    top: +5px;
+}
+
+.link span4{
+    position: relative;
+    top: 0;
+    left: -30px;
+    opacity: 0;
+    direction: .5s;
+}
+
+.link:hover span4{
+    opacity: 1;
+    top: +5px;
+}
+
+.link span5{
+    position: relative;
+    top: 0;
+    left: -30px;
+    opacity: 0;
+    direction: .5s;
+}
+
+.link:hover span5{
+    opacity: 1;
+    top: +5px;
+}
+
+.link span6{
+    position: relative;
+    top: 0;
+    left: -30px;
+    opacity: 0;
+    direction: .5s;
+}
+
+.link:hover span6{
+    opacity: 1;
+    top: +5px;
+}
+
+.link span7{
+    position: relative;
+    top: 0;
+    left: -30px;
+    opacity: 0;
+    direction: .5s;
+}
+
+.link:hover span7{
+    opacity: 1;
+    top: +5px;
+}
+
+.link span8{
+    position: relative;
+    top: 0;
+    left: -30px;
+    opacity: 0;
+    direction: .5s;
+}
+
+.link:hover span8{
+    opacity: 1;
+    top: +5px;
+}
+
+.link span9{
+    position: relative;
+    top: 0;
+    left: -30px;
+    opacity: 0;
+    direction: .5s;
+}
+
+.link:hover span9{
+    opacity: 1;
+    top: +5px;
+}
+
+.link span10{
+    position: relative;
+    top: 0;
+    left: -30px;
+    opacity: 0;
+    direction: .5s;
+}
+
+.link:hover span10{
+    opacity: 1;
+    top: +5px;
+}
+
+.content-func{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 30px;
+    text-align: center;
+}
+
+
+/*этапы развития философии*/
+.main{
+    position: relative;
+    font-family: "Inter";
+    font-size: 24px;
+    color: #8B836E;
+    top: 134px;
+}
+
+.sheam-header{
+    position: relative;
+    font-family: "Inter";
+    font-size: 36px;
+    color: #8B836E;
+    top: 10px;
+    text-align: center;
+}
+
+.content-steps{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 30px;
+    text-align: center;
+}
+
+.shema-step{
+    z-index: 9;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 110px;
+    column-gap: 180px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 150px;
+}
+
+.links a{
+    color: #8B836E;
+    text-decoration: none;
+}
+
+/*направления*/
+.main{
+    text-align: center;
+}
+
+/*философы*/
+.antique, .middel_ages, 
+.revival, .new_time, 
+.nowdays{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+/*эпохи и философы*/
+.content {
+    color:#8B836E;
+    font-size: 24px;
+    margin-top: 134px;
+}
+
+
+/*шрифт*/
+@font-face {
+    font-family: "MoriceBejar";  
+    src: url("Morice-Bejar.ttf") format("truetype"); 
+}
